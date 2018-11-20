@@ -1,0 +1,25 @@
+go Discover()
+Adventures of a Community Tired of Programming Languages
+21 Nov 2018
+Tags: WWC, WWG, Women Who Code, Women Who Go, Berlin, Golang, Go
+
+Ronna Steinberg
+Chapter Lead, Women Who Go Berlin
+ronnas@gmail.com
+https://www.meetup.com/Women-Who-Go-Berlin/
+@ronnax
+Sign Up!
+
+* We can display and run code with this thing!
+
+.play main.go
+
+* Shall we have a look at the language?
+
+* Starting an HTTP Server is Easy!
+
+.play http.go
+
+* State of Diversity
+.image survey.png _ 1000
+
