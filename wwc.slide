@@ -26,6 +26,7 @@ Sign Up!
 .play interfaces.go /START/,/DONE/
 
 * Goroutines #1 (Spawn and Wait)
+Goroutine ≠ Thread
 .play goroutines1.go
 
 * Goroutines #2 (Communicate via Channels)

@@ -10,6 +10,7 @@ func main() {
 	wg.Add(10)
 
 	for i := 0; i < 10; i++ {
+		//start a goroutine using the keyword go
 		go func(i int) {
 			fmt.Println(i)
 			wg.Done()
