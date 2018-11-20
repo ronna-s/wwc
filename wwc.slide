@@ -12,13 +12,13 @@ Sign Up!
 
 * We can display and run code with this thing!
 
-.play files/main.go
+.play slide-files/main.go
 
 * Shall we have a look at the language?
 
 * Starting an HTTP Server is Easy!
 
-.play files/http.go
+.play slide-files/http.go
 
 * State of Diversity
 .image files/survey.png _ 1000
