@@ -12,14 +12,14 @@ Sign Up!
 
 * We can display and run code with this thing!
 
-.play main.go
+.play files/main.go
 
 * Shall we have a look at the language?
 
 * Starting an HTTP Server is Easy!
 
-.play http.go
+.play files/http.go
 
 * State of Diversity
-.image survey.png _ 1000
+.image files/survey.png _ 1000
 
