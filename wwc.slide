@@ -12,14 +12,29 @@ Sign Up!
 
 * We can display and run code with this thing!
 
-.play slide-files/main.go
+.play main.go
 
 * Shall we have a look at the language?
 
-* Starting an HTTP Server is Easy!
+* Starting an HTTP server is easy!
 
-.play slide-files/http.go
+.play http.go
+.link http://127.0.0.1:8080
+
+* Interfaces implementation is implicit (and other tricks...)
+
+.play interfaces.go /START/,/DONE/
+
+* Goroutines #1 (Spawn and Wait)
+.play goroutines1.go
+
+* Goroutines #2 (Communicate via Channels)
+.play goroutines2.go /START/,/DONE/
+
+* Errors are values
+There are no exceptions in Go, the concept of hierarchy between errors is prone to errors.
+.play errors.go /START/,/DONE/
 
 * State of Diversity
-.image files/survey.png _ 1000
+.image survey.png _ 1000
 
