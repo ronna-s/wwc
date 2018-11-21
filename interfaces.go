@@ -7,7 +7,7 @@ import (
 
 // START OMIT
 type Name string
-type Names []string
+type Names []Name
 
 func (names Names) Shuffle() {
 	for i := range names {
