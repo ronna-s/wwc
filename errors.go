@@ -23,8 +23,6 @@ func main() {
 	if err := CantRecover(); err != nil {
 		panic(err)
 	}
-
-	CantRecover()
 }
 
 //DONE OMIT

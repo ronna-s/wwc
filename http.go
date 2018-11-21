@@ -5,7 +5,7 @@ import (
 )
 
 func main() {
-	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
+	http.HandleFunc("/hi/", func(w http.ResponseWriter, r *http.Request) {
 		w.Write([]byte("<h1>Hello, Women Who Code Berlin!</h1>"))
 	})
 

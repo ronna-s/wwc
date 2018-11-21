@@ -1,5 +1,5 @@
 go Discover()
-Adventures of a Community Tired of Programming Languages
+Adventures of a community tired of programming languages
 21 Nov 2018
 Tags: WWC, WWG, Women Who Code, Women Who Go, Berlin, Golang, Go
 
@@ -10,16 +10,21 @@ https://www.meetup.com/Women-Who-Go-Berlin/
 @ronnax
 Sign Up!
 
-* We can display and run code with this thing!
-
+* Hello World!
+Yes, we can even display and run code with this thing!
 .play main.go
 
 * Shall we have a look at the language?
 
-* Starting an HTTP server is easy!
+* WARNING!
+
+- The coding examples I picked for this talk are not the simplest!
+- You don't have to understand everything, they are meant to pique your interest...
+
+* Starting an HTTP server is easy...
 
 .play http.go
-.link http://127.0.0.1:8080
+.link http://127.0.0.1:8080/hi
 
 * Interfaces implementation is implicit (and other tricks...)
 
@@ -27,9 +32,15 @@ Sign Up!
 
 * Goroutines #1 (Spawn and Wait)
 Goroutine ≠ Thread
-.play goroutines1.go
+
+- Threads setup, teardown and context switches are heavy (and slow)...
+- The # of physical threads is limited. No point in creating more threads than physical.
+- The Go scheduler creates threads (NOT a pool) to run Goroutines.
+.play goroutines1.go /START/,/DONE/
 
 * Goroutines #2 (Communicate via Channels)
+
+- Channels are message queues that are safe for concurrency.
 .play goroutines2.go /START/,/DONE/
 
 * Errors are values
@@ -38,4 +49,24 @@ There are no exceptions in Go, the concept of hierarchy between errors is prone 
 
 * State of Diversity
 .image survey.png _ 1000
+
+
+* Women Who Go Berlin
+
+* Women Who Go
+- Women Who Go is a global organization dedicated to increase the diversity of the Go community.
+
+* Our Workshops
+- We offer (almost) monthly workshops in Go on various topics aimed to improve your Go skills and your programming skills in general.
+- Safe space is, of course, part of the deal.
+- Bravery is encouraged. Speak about anything you did with Go and get a pink gopher plush.
+
+* The biGOpportunity!
+- There are estimated 2M gophers worldwide, an increase of 100% from last year.
+- Our aim is to build this community properly from the start.
+
+* Go crazy!
+- There are jobs in Berlin for gophers!
+- I also recommend joining:
+.link https://www.meetup.com/golang-users-berlin/ GDG Golang Berlin Meetup
 
